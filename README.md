@@ -16,7 +16,7 @@
 
 ## Github Page Live Link:
 
-## Github Repository Link:
+## Github Repository Link: https://github.com/KG-2023/CozyChic
 
 ## Project Goals / Services provided by the application 
 
