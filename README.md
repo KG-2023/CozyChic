@@ -1,6 +1,5 @@
 # CozyChic Mini-Project 2 Documentation
 
-# Project-documentation-template
 
 ## PROJECT TITLE MINI-PROJECT 1 : Portfolio Landing page
 
