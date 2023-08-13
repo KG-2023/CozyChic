@@ -11,9 +11,40 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background: linear-gradient(to top,#fde5ec81, #fcbaad7d),url(https://github.com/suengit6/CozyChic-Images-Final/blob/main/BG-image/rosegold-roses.jpg?raw=true)no-repeat top center;
+body {
+    background: linear-gradient(to top, #fde5ec81, #fcbaad7d),
+        url(https://github.com/suengit6/CozyChic-Images-Final/blob/main/BG-image/rosegold-roses.jpg?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--secondary1)
+}
+
+.shop_button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #E48586;
+    background-color: #f9f9f9;
+    border-radius: 2px;
+    border: #E48586 solid;
+    outline: none;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    min-width: 200px;
+    ;
+}
+
+.shop_button:hover {
+    font-weight: 600;
+    color: var(--secondary2);
+}
+
 .container{
     margin-top:20px;
     margin-bottom: 20px;
@@ -22,40 +53,44 @@ body{
     padding: 0;
     max-width: 100%;
 }
-.container img{ 
-    max-height: 400px;
-    height: 400px;
+
+.container img {
+    max-height: 600px;
     width: 100%;
     max-width: 100%;
     object-fit: cover;
-
+    margin: 0;
 }
 
-.container-2{
+.container-2 {
     text-align: center;
-    background-color: white;
+    background-color: var(--primary2);
     padding: 50px 0px;
-    width: 100%;
 }
-.container-2 h1{
-    color: var(--secondary1);
+
+.container-2 h1 {
+    color: #354424;
     font-weight: 600;
 }
-.collab-images{
+
+.collab-images {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: white;
-    width: 100%;
-    justify-content: space-around;
 }
-.collab-images img{
+
+.collab-images img {
     height: 60px;
     width: 60px;
+    margin: 10px 11%;
 }
-.container-3{
+
+.container-3 {
     display: flex;
-    width: 100%;
+    margin: auto 32px;
 }
+
 .row-pic{
     display: flex;
     width: 100%;
@@ -142,4 +177,19 @@ body{
 }
 .carousel-control-prev , .carousel-control-next {
     margin: 0 1.5rem;
+}
+
+
+/****** MEDIA QUERIES *********/
+
+@media only screen and (max-width: 600px) {
+    .container img {
+        min-height: 600px;
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        margin: 0;
+    }
+
+
 }

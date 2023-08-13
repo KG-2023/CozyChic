@@ -28,7 +28,7 @@ function validateAndSubmit() {
     if (form.checkValidity()) {
         // You can process the form here (e.g., send data to a server)
         // For this example, we'll just show an alert
-        alert('Order has been processed!');
+        alert('Thank you. Order has been processed!');
     } else {
         // Show the default validation error messages
         form.reportValidity();
