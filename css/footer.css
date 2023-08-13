@@ -1,3 +1,9 @@
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
 footer {
     background-color: var(--secondary2) !important;
 }
@@ -20,17 +26,19 @@ footer {
 }
 
 .row {
-    width: 100%
+    width: 100%;
+    display: flex;
 }
 
 .col-md-3 {
+    margin: 0 32px;
     width: fit-content;
-    margin: 0px 30px;
 }
 
 
 .footer-heading {
-    font-weight: 600 !important;
+    font-weight: 600;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
