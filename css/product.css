@@ -1,0 +1,106 @@
+:root {
+	--primary1: #fde5ec;
+	--primary2: #fcbaad;
+	--secondary1: #e48586;
+	--secondary2: #916db3;
+}
+* {
+	padding: 0px;
+	margin: 0px;
+}
+/* Style for the carousel container */
+#productCarousel {
+	margin: auto;
+	max-width: 600px; /* Adjust as needed */
+}
+  
+/* Style for the thumbnail images row */
+.row-thumbnails {
+	margin-top: 20px;
+}
+  
+/* Style for the thumbnail images */
+.thumbnail-image {
+	cursor: pointer;
+	border: 2px solid transparent;
+	transition: border-color 0.3s ease-in-out;
+}
+  
+.thumbnail-image:hover {
+	border-color: #007bff;
+}
+  
+/* Style for the active thumbnail image */
+.thumbnail-image.active {
+	border-color: #007bff;
+}
+.container{
+	  width: 100%;
+	  margin: auto;
+	  padding: 30px;
+	  display: flex;
+}
+.col-4{
+	  width: 30%;
+}
+.row-1{
+	  justify-content: space-between;
+	  width: 25vw!important;
+	  display: flex;
+}
+.carousel-inner{
+	width: fit-content;
+}
+.carousel-item img{
+	width: 25vw!important;
+}
+#productCarousel{
+	width: 25vw;
+	margin: 0;
+	margin-right: 50px;
+}
+.product-text{
+	display: flex;
+    flex-direction: column;
+	margin: auto;
+}
+.product-text input{
+	width: 100%;
+}
+.add2cart{
+	display: flex;
+    justify-content: center;
+}
+.product-text button{
+	margin-top: 20px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background-color: pink;
+    border: #a66570 solid 1px;
+    color: white;
+}
+.carousel-control-prev{
+	height: 75%;
+}
+.carousel-control-next{
+	height: 75%;
+}
+@media screen and (max-width: 500px){
+	.container{
+		display: block;
+	}
+	#productCarousel{
+		width: fit-content;
+		margin: auto ;
+	}
+	.container img{
+		width: 85vw!important;
+	}
+	.row-1{
+		width: auto!important;
+	}
+	.product-text h2{
+		font-size: 2.5rem;
+	}
+}
+	

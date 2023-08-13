@@ -1,0 +1,27 @@
+:root{
+    --primary1: #FDE5EC;
+    --primary2: #FCBAAD;
+    --secondary1: #E48586   ;
+    --secondary2: #916DB3;
+
+}
+.container {
+    max-width: 960px;
+}
+.btn{
+    background-color: var(--secondary1);
+    border: transparent;
+    color: white;
+}
+.btn:hover{
+    background-color: var(--primary2);
+}
+
+.lh-condensed {
+    line-height: 1.25;
+}
+@media screen and (max-width: 400px) {
+    .col-md-3{
+        text-align: center;
+    }
+}

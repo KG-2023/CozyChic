@@ -1,0 +1,24 @@
+footer{
+    background-color: var(--secondary2)!important;
+}
+.list-unstyled {
+    color: white;
+    text-decoration: none;
+}
+.list-unstyled a {
+    color: white!important;
+    text-decoration: none;
+
+}
+.list-unstyled a:hover {
+    color: var(--secondary1)!important; 
+    text-decoration: none;
+
+}
+.row{
+    width: 100%!important;
+}
+.col-md-3{
+    width: fit-content;
+    margin: 0px 23px;
+}

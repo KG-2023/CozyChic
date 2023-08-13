@@ -1,0 +1,68 @@
+:root{
+    --primary: #f7cac9;
+    --secondary: #f7786b
+}
+body{
+    background-image: url(https://github.com/suengit6/activity-images/blob/main/pexels-ron-lach-8386646.jpg?raw=true);
+}
+.login__container {
+    margin-top: 50px!important;
+    height: 350px;
+    width: 400px;
+    background-color: #f7796bc5;
+    border-radius: 15px;
+    margin: 10px 30%;
+    display: flex;
+    align-items: center;
+
+}
+.login__container h1{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 600;
+    color: #793831;
+}
+.login__container input{
+    position: relative;
+    top: 30%;
+    width: 370px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    margin: 10px 10px;
+}
+.login__container a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.login__container button{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: white;
+    font-size: 15px;
+}
+.login__container button:hover{
+    background-color: #fedada;
+    color: #f2b7b6;
+}
+.login__container p{
+    top: 10%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .login__container{
+        top: 125px;
+        height: 270px;
+        margin: 5px 10px;
+        width: 95%;
+    }
+
+    .login__container input{
+        width: 100%;
+    }
+    
+}

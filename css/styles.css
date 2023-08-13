@@ -1,0 +1,145 @@
+:root{
+    --primary1: #FDE5EC;
+    --primary2: #FCBAAD;
+    --secondary1: #E48586   ;
+    --secondary2: #916DB3;
+
+}
+
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to top,#fde5ec81, #fcbaad7d),url(https://github.com/suengit6/CozyChic-Images-Final/blob/main/BG-image/rosegold-roses.jpg?raw=true)no-repeat top center;
+}
+.container{
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    max-width: 100%;
+}
+.container img{ 
+    max-height: 400px;
+    height: 400px;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+.container-2{
+    text-align: center;
+    background-color: white;
+    padding: 50px 0px;
+    width: 100%;
+}
+.container-2 h1{
+    color: var(--secondary1);
+    font-weight: 600;
+}
+.collab-images{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    justify-content: space-around;
+}
+.collab-images img{
+    height: 60px;
+    width: 60px;
+}
+.container-3{
+    display: flex;
+    width: 100%;
+}
+.row-pic{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+.card-pic{
+    background-color: #ffffffc5;
+    height: 50vh;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+.card-pic img{
+    border-radius: 12px;
+    margin: 10px;
+    height: 100%;
+    width: 25%;
+    border: #354424 2px solid;
+    padding: 10px 10px 10px 10px;
+}
+.explore-more{
+    display: flex;
+    height:100px;
+    background-color: var(--primary2);
+    justify-content: center;
+    align-items: center;
+}
+.explore a{
+    text-decoration: none;
+}
+
+.explore-more h2{
+    height: auto;
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.explore-more:hover >*{
+    background-color: #ffd6ce;
+    font-size: 2.5rem;
+    color: #E48586;
+}
+.explore-more:hover{
+    background-color: #ffd6ce;
+}
+
+
+.container-4{
+    padding-top: 2rem!important;
+    margin-top: 0!important;
+    background-color: white;
+    padding-left: 2REM;
+}
+.container-4 h2{
+    text-align: center;
+}
+.review {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+.reviewer {
+    font-weight: bold;
+}
+.stars {
+    color: gold;
+}
+.custom-carousel-inner {
+    justify-content: space-between;
+    display: flex;
+    padding: 0 1.5rem;
+}
+.carousel {
+    position: relative;
+    background-color: white;
+}
+.custom-card{
+    padding: 0 2rem;
+}
+.carousel-control-prev , .carousel-control-next {
+    margin: 0 1.5rem;
+}
