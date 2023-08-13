@@ -1,49 +1,60 @@
-:root{
+:root {
     --primary1: #FDE5EC;
     --primary2: #FCBAAD;
-    --secondary1: #E48586   ;
+    --secondary1: #E48586;
     --secondary2: #916DB3;
-
 }
 
-.nav-bg-color{
-    background-color: #fde5ece7!important;
+
+.navbar-dark .navbar-brand {
+    font-weight: 800;
+    margin-left: 20px;
+    color: #E48586;
+    font-size: 40px;
 }
-.secondary-text{
-    color: var(--secondary1);
-    font-weight: 600;
-}
-.white{
-color: white;
-margin: 0;
-}
-.primary{
+
+
+.primary {
     background-color: var(--primary2);
 }
-.nav-row-rev{
-    flex-direction: row-reverse;
-}
-.btn-color{
+
+
+.search_button {
     border: var(--secondary1) 2px solid;
     color: var(--secondary1);
+    background-color: white;
     width: 100px;
+    float: right;
+    font-size: 18px;
 }
-.btn-color:hover{
-    color: var(--primary1);
-    border: var(--primary1) 2px solid;
-}
-.form-control-2{
-    width: 450px!important;
-}
-.form-control-2:hover{
+
+.search-bar {
+    max-width: 300px;
+    font-size: 18px;
     border: var(--secondary1) 1px solid;
-    outline: none!important;
-    box-shadow: none;
+    padding: 5px;
+    margin: 0px 5px;
 }
-.form-control-2:focus{
-    outline: none!important;
-    box-shadow: none;
+
+.search_button:hover {
+    border: var(--secondary1) 3px solid;
 }
-.form-main{
-    margin: 0px 10px;
+
+
+.search_button {
+    margin: 0px 15px;
+}
+
+
+.navbar-toggler {
+    border: var(--secondary1) 3px solid !important;
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: var(--secondary1) !important;
+    font-weight: 600;
 }
