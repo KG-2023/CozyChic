@@ -1,27 +1,48 @@
-:root{
+:root {
     --primary1: #FDE5EC;
     --primary2: #FCBAAD;
-    --secondary1: #E48586   ;
+    --secondary1: #E48586;
     --secondary2: #916DB3;
+    --tertiary1: #f89f5b;
 
 }
-.container {
-    max-width: 960px;
+
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
 }
-.btn{
+
+.container {
+    min-width: 500px;
+}
+
+.btn {
     background-color: var(--secondary1);
     border: transparent;
-    color: white;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: var(--primary2);
 }
 
-.lh-condensed {
-    line-height: 1.25;
+.needs-validation {
+    margin-bottom: 50px;
 }
-@media screen and (max-width: 400px) {
-    .col-md-3{
-        text-align: center;
-    }
+
+.checkout_heading {
+    font-size: 2.5rem;
+    color: var(--tertiary1);
+}
+
+.countryDropdown {
+    font-family: poppins;
+}
+
+.text-primary,
+.mb-3 {
+    color: var(--tertiary1) !important;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
