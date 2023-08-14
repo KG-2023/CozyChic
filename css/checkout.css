@@ -34,14 +34,11 @@
     color: var(--tertiary1);
 }
 
-.countryDropdown {
-    font-family: poppins;
-}
 
 .text-primary,
 .mb-3 {
     color: var(--tertiary1) !important;
     font-size: 25px;
     margin-bottom: 20px;
-    font-weight: 600;
+    
 }

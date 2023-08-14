@@ -29,7 +29,7 @@
 }
 
 .search-bar {
-    max-width: 300px;
+    min-width: 300px;
     font-size: 18px;
     border: var(--secondary1) 1px solid;
     padding: 5px;
@@ -42,9 +42,8 @@
 
 
 .search_button {
-    margin: 0px 15px;
+    margin: 0px 15px !important;
 }
-
 
 .navbar-toggler {
     border: var(--secondary1) 3px solid !important;
