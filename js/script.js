@@ -18,7 +18,7 @@
       })
     }, false)
 }())
-  
+
 
 function validateAndSubmit() {
     // Get the form
