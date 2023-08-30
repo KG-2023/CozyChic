@@ -1,59 +1,49 @@
-:root {
+:root{
     --primary1: #FDE5EC;
     --primary2: #FCBAAD;
-    --secondary1: #E48586;
+    --secondary1: #E48586   ;
     --secondary2: #916DB3;
+
 }
 
-
-.navbar-dark .navbar-brand {
-    font-weight: 800;
-    margin-left: 20px;
-    color: #E48586;
-    font-size: 40px;
+.nav-bg-color{
+    background-color: #fde5ece7!important;
 }
-
-
-.primary {
+.secondary-text{
+    color: var(--secondary1);
+    font-weight: 600;
+}
+.white{
+color: white;
+margin: 0;
+}
+.primary{
     background-color: var(--primary2);
 }
-
-
-.search_button {
+.nav-row-rev{
+    flex-direction: row-reverse;
+}
+.btn-color{
     border: var(--secondary1) 2px solid;
     color: var(--secondary1);
-    background-color: white;
     width: 100px;
-    float: right;
-    font-size: 18px;
 }
-
-.search-bar {
-    min-width: 300px;
-    font-size: 18px;
+.btn-color:hover{
+    color: var(--primary1);
+    border: var(--primary1) 2px solid;
+}
+.form-control-2{
+    width: 450px!important;
+}
+.form-control-2:hover{
     border: var(--secondary1) 1px solid;
-    padding: 5px;
-    margin: 0px 5px;
+    outline: none!important;
+    box-shadow: none;
 }
-
-.search_button:hover {
-    border: var(--secondary1) 3px solid;
+.form-control-2:focus{
+    outline: none!important;
+    box-shadow: none;
 }
-
-
-.search_button {
-    margin: 0px 15px !important;
-}
-
-.navbar-toggler {
-    border: var(--secondary1) 3px solid !important;
-}
-
-.nav-link {
-    margin: 0 10px;
-}
-
-.nav-link:hover {
-    color: var(--secondary1) !important;
-    font-weight: 600;
+.form-main{
+    margin: 0px 10px;
 }

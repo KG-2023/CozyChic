@@ -19,7 +19,7 @@
     <link rel="icon" type="image/x-icon" href="https://github.com/suengit6/CozyChic-Images-Final/blob/main/Logo/CozyChicLogo.png?raw=true">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/signup.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/footer.css">
 
@@ -68,11 +68,14 @@
     <section>
         <div class="login__container">
             <form>
-                <h1>Login</h1>
-                <input id="email" type="email" placeholder="Email">
-                <input id="pwd" type="password" placeholder="Password">
-                <p>Dont have an account? <a href="signup.html">Create an account!</a></p>
-                <button type="submit" value="submit" onclick="checkData()">Sign In</button>
+                <h1>Create an Account</h1>
+                <input type="text" placeholder="Full Name" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" placeholder="Address" required>
+                <input type="email" placeholder="Email" id="email" required>
+                <input type="password" placeholder="Password" id="pwd" required>
+                <p>Have an account? <a href="login.html">Login!</a></p>
+                <button type="submit" value="submit" onclick="addData()">Sign Up!</button>
             </form>
         </div>
         
@@ -109,13 +112,13 @@
                     <div class="col-md-3">
                         <h5>Friendly Support</h5>
                         <p>If you need any assistance, our support team is here to help.</p>
-                        <p>Email: <a href="mailto:support@example.com"><span>support@example.com</span></a></p>
+                        <p>Email: support@example.com</p>
                     </div>
                 </div>
             </div>
         </footer>
     
     </section>
-    <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script>
 </body>
 </html>

@@ -7,7 +7,6 @@ body{
 }
 .login__container {
     margin-top: 50px!important;
-    height: 350px;
     width: 400px;
     background-color: #f7796bc5;
     border-radius: 15px;
@@ -50,18 +49,22 @@ body{
     top: 10%;
     text-align: center;
 }
+form{
+    padding: 20px 0;
+}
 
 
 @media only screen and (max-width: 700px) {
 
     .login__container{
         top: 125px;
+        height: auto;
         margin: 5px 10px;
         width: 95%;
     }
 
     .login__container input{
-        width: 100%;
+        width: 95%;
     }
     
 }
